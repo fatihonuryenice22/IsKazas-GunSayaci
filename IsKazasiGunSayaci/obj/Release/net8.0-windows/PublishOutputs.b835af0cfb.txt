@@ -1,0 +1,6 @@
+C:\Users\Ronwell\Desktop\TTisKazaSayaci\IsKazasiGunSayaci.exe
+C:\Users\Ronwell\Desktop\TTisKazaSayaci\IsKazasiGunSayaci.dll
+C:\Users\Ronwell\Desktop\TTisKazaSayaci\IsKazasiGunSayaci.deps.json
+C:\Users\Ronwell\Desktop\TTisKazaSayaci\IsKazasiGunSayaci.runtimeconfig.json
+C:\Users\Ronwell\Desktop\TTisKazaSayaci\IsKazasiGunSayaci.pdb
+C:\Users\Ronwell\Desktop\TTisKazaSayaci\Newtonsoft.Json.dll

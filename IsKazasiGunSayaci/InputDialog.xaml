@@ -1,0 +1,43 @@
+﻿<Window x:Class="IsKazasiGunSayaci.InputDialog"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:IsKazasiGunSayaci"
+        mc:Ignorable="d"
+        Title="InputDialog" Height="300" Width="300">
+    <Grid>
+        <Label Content="Lütfen Şube Seçiniz" HorizontalAlignment="Left" Height="25" Margin="22,26,0,0" VerticalAlignment="Top" Width="129" FontWeight="SemiBold"/>
+        <ComboBox Name="SubeComboBox" HorizontalAlignment="Left" Height="33" Margin="18,52,0,0" VerticalAlignment="Top" Width="172" AutomationProperties.Name="combobox" Focusable="False">
+            <ComboBoxItem Content="Avcılar"></ComboBoxItem>
+            <ComboBoxItem Content="Bağcılar"></ComboBoxItem>
+            <ComboBoxItem Content="Bahçelievler"></ComboBoxItem>
+            <ComboBoxItem Content="Bakırköy"></ComboBoxItem>
+            <ComboBoxItem Content="Bayrampaşa"></ComboBoxItem>
+            <ComboBoxItem Content="Bebek"></ComboBoxItem>
+            <ComboBoxItem Content="Beyoğlu"></ComboBoxItem>
+            <ComboBoxItem Content="Büyükçekmece"></ComboBoxItem>
+            <ComboBoxItem Content="Eminönü"></ComboBoxItem>
+            <ComboBoxItem Content="Fatih"></ComboBoxItem>
+            <ComboBoxItem Content="Gayrettepe"></ComboBoxItem>
+            <ComboBoxItem Content="Gaziosmanpaşa"></ComboBoxItem>
+            <ComboBoxItem Content="İkitelli"></ComboBoxItem>
+            <ComboBoxItem Content="Erenköy"></ComboBoxItem>
+            <ComboBoxItem Content="Kadıköy"></ComboBoxItem>
+            <ComboBoxItem Content="Küçükyalı"></ComboBoxItem>
+            <ComboBoxItem Content="Pendik"></ComboBoxItem>
+            <ComboBoxItem Content="Ümraniye"></ComboBoxItem>
+            <ComboBoxItem Content="Üsküdar"></ComboBoxItem>
+            <ComboBoxItem Content="Edirne"></ComboBoxItem>
+            <ComboBoxItem Content="Kırklareli"></ComboBoxItem>
+            <ComboBoxItem Content="Tekirdağ"></ComboBoxItem>
+            <ComboBoxItem Content="Sakarya"></ComboBoxItem>
+            <ComboBoxItem Content="Kocaeli"></ComboBoxItem>
+
+        </ComboBox>
+        <TextBox Name="tarihtextbox" HorizontalAlignment="Left" Height="28" Margin="18,118,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="201" AutomationProperties.Name="textbox" />
+        <Label Content="Tarih Giriniz (GG.AA.YYYY)" HorizontalAlignment="Left" Height="25" Margin="22,91,0,0" VerticalAlignment="Top" Width="182" FontWeight="SemiBold"/>
+        <Button Content="Tamam" HorizontalAlignment="Left" Height="21" Margin="199,173,0,0" VerticalAlignment="Top" Width="80" Click="Button_Click"/>
+
+    </Grid>
+</Window>

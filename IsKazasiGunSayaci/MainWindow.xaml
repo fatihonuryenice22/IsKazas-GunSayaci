@@ -1,0 +1,98 @@
+﻿<Window x:Class="IsKazasiGunSayaci.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:IsKazasiGunSayaci"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="500" Width="1200">
+    <Grid  >
+        <Grid.Background>
+            <ImageBrush ImageSource="/IMG_3301.PNG" Opacity="0.5" Stretch="Fill" />
+        </Grid.Background>
+
+        <Label Content="Türk Telekom İstanbul Bölge Müdürlüğü İş Kazası Gün Sayısı Takip Uygulaması" HorizontalAlignment="Left" Margin="7,2,0,0" VerticalAlignment="Top" Height="35" Width="453" FontWeight="Bold" Foreground="#FFEE0303"/>
+        <Label Content="Edirne Telekom Müdürlüğü" HorizontalAlignment="Left" Height="28" Margin="24,51,0,0" VerticalAlignment="Top" Width="201" FontWeight="Bold" />
+        <Label Content="Avcılar Telekom Müdürlüğü" HorizontalAlignment="Left" Height="28" Margin="24,81,0,0" VerticalAlignment="Top" Width="201" FontWeight="Bold" />
+        <Label Content="Bağcılar Telekom Müdürlüğü" HorizontalAlignment="Left" Height="28" Margin="24,111,0,0" VerticalAlignment="Top" Width="199" FontWeight="Bold" />
+        <Label Content="Bahçelievler Telekom Müdürlüğü" HorizontalAlignment="Left" Height="28" Margin="24,141,0,0" VerticalAlignment="Top" Width="230" FontWeight="Bold" />
+        <Label Content="Bakırköy Telekom Müdürlüğü" HorizontalAlignment="Left" Height="28" Margin="24,171,0,0" VerticalAlignment="Top" Width="212" FontWeight="Bold" />
+        <Label Content="Bayrampaşa Telekom Müdürlüğü" HorizontalAlignment="Left" Height="28" Margin="24,201,0,0" VerticalAlignment="Top" Width="229" FontWeight="Bold" />
+        <Label Content="Bebek Telekom Müdürlüğü" HorizontalAlignment="Left" Height="28" Margin="24,231,0,0" VerticalAlignment="Top" Width="203" FontWeight="Bold" />
+        <Label Content="Beyoğlu Telekom Müdürlüğü" HorizontalAlignment="Left" Height="28" Margin="24,261,0,0" VerticalAlignment="Top" Width="200" FontWeight="Bold" />
+        <Label Content="Büyükçekmece Telekom Müdürlüğü" HorizontalAlignment="Left" Height="28" Margin="24,291,0,0" VerticalAlignment="Top" Width="243" FontWeight="Bold" />
+        <Label Content="Eminönü Telekom Müdürlüğü" HorizontalAlignment="Left" Height="28" Margin="24,321,0,0" VerticalAlignment="Top" Width="220" FontWeight="Bold" />
+        <Label Content="Fatih Telekom Müdürlüğü" HorizontalAlignment="Left" Height="28" Margin="24,351,0,0" VerticalAlignment="Top" Width="185" FontWeight="Bold" />
+        <Label Content="Gayrettepe Telekom Müdürlüğü" HorizontalAlignment="Left" Height="28" Margin="24,381,0,0" VerticalAlignment="Top" Width="223" FontWeight="Bold" />
+        <Label Content="Son İş Kazası Tarihi" HorizontalAlignment="Left" Height="25" Margin="292,31,0,0" VerticalAlignment="Top" Width="152" FontWeight="Bold"/>
+        <Label Content="Kazasız Gün Sayısı" HorizontalAlignment="Left" Height="25" Margin="432,31,0,0" VerticalAlignment="Top" Width="152" FontWeight="Bold"/>
+        <Label Content="Gaziosmanpaşa Telekom Müdürlüğü" HorizontalAlignment="Left" Height="28" Margin="593,51,0,0" VerticalAlignment="Top" Width="201" FontWeight="Bold" />
+        <Label Content="İkitelli Telekom Müdürlüğü" HorizontalAlignment="Left" Height="28" Margin="593,81,0,0" VerticalAlignment="Top" Width="201" FontWeight="Bold" />
+        <Label Content="Erenköy Telekom Müdürlüğü" HorizontalAlignment="Left" Height="28" Margin="593,111,0,0" VerticalAlignment="Top" Width="199" FontWeight="Bold" />
+        <Label Content="Kadıköy Telekom Müdürlüğü" HorizontalAlignment="Left" Height="28" Margin="593,141,0,0" VerticalAlignment="Top" Width="230" FontWeight="Bold" />
+        <Label Content="Küçükyalı Telekom Müdürlüğü" HorizontalAlignment="Left" Height="28" Margin="593,171,0,0" VerticalAlignment="Top" Width="212" FontWeight="Bold" />
+        <Label Content="Pendik Telekom Müdürlüğü" HorizontalAlignment="Left" Height="28" Margin="593,201,0,0" VerticalAlignment="Top" Width="229" FontWeight="Bold" />
+        <Label Content="Ümraniye Telekom Müdürlüğü" HorizontalAlignment="Left" Height="28" Margin="593,231,0,0" VerticalAlignment="Top" Width="203" FontWeight="Bold" />
+        <Label Content="Üsküdar Telekom Müdürlüğü" HorizontalAlignment="Left" Height="28" Margin="593,261,0,0" VerticalAlignment="Top" Width="200" FontWeight="Bold" />
+        <Label Content="Kırklareli Telekom Müdürlüğü" HorizontalAlignment="Left" Height="28" Margin="593,291,0,0" VerticalAlignment="Top" Width="243" FontWeight="Bold" />
+        <Label Content="Tekirdağ Telekom Müdürlüğü" HorizontalAlignment="Left" Height="28" Margin="593,321,0,0" VerticalAlignment="Top" Width="220" FontWeight="Bold" />
+        <Label Content="Sakarya Telekom Müdürlüğü" HorizontalAlignment="Left" Height="28" Margin="593,351,0,0" VerticalAlignment="Top" Width="185" FontWeight="Bold" />
+        <Label Content="Kocaeli Telekom Müdürlüğü" HorizontalAlignment="Left" Height="28" Margin="593,381,0,0" VerticalAlignment="Top" Width="223" FontWeight="Bold" />
+        <Label Content="Son İş Kazası Tarihi" HorizontalAlignment="Left" Height="25" Margin="788,32,0,0" VerticalAlignment="Top" Width="152" FontWeight="Bold"/>
+        <Label Content="Kazasız Gün Sayısı" HorizontalAlignment="Left" Height="25" Margin="921,30,0,0" VerticalAlignment="Top" Width="152" FontWeight="Bold"/>
+        <TextBlock Name="songunedirne" HorizontalAlignment="Left" Height="16" Margin="329,57,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="60"/>
+        <TextBlock Name="songunavcilar" HorizontalAlignment="Left" Height="16" Margin="329,87,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="60"/>
+        <TextBlock Name="songunbagcilar" HorizontalAlignment="Left" Height="16" Margin="329,117,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="60"/>
+        <TextBlock Name="songunbevler" HorizontalAlignment="Left" Height="16" Margin="329,147,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="60"/>
+        <TextBlock Name="songunbköy"  HorizontalAlignment="Left" Height="16" Margin="329,177,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="60"/>
+        <TextBlock Name="songunbpasa" HorizontalAlignment="Left" Height="16" Margin="329,207,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="60"/>
+        <TextBlock Name="songunbebek" HorizontalAlignment="Left" Height="16" Margin="329,237,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="60"/>
+        <TextBlock Name="songunbeyoglu" HorizontalAlignment="Left" Height="16" Margin="329,267,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="60"/>
+        <TextBlock Name="songunbcekmece" HorizontalAlignment="Left" Height="16" Margin="329,297,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="60"/>
+        <TextBlock Name="songuneminonu" HorizontalAlignment="Left" Height="16" Margin="329,327,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="60"/>
+        <TextBlock Name="songunfatih" HorizontalAlignment="Left" Height="16" Margin="329,357,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="60"/>
+        <TextBlock Name="songungtepe" HorizontalAlignment="Left" Height="16" Margin="329,387,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="60"/>
+        <TextBlock x:Name="songunedirne_Kopyala" HorizontalAlignment="Left" Height="16" Margin="461,60,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="43"/>
+        <TextBlock x:Name="songunavcilar_Kopyala" HorizontalAlignment="Left" Height="16" Margin="461,90,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="43"/>
+        <TextBlock x:Name="songunbagcilar_Kopyala" HorizontalAlignment="Left" Height="16" Margin="461,120,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="43"/>
+        <TextBlock x:Name="songunbevler_Kopyala" HorizontalAlignment="Left" Height="16" Margin="461,150,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="43"/>
+        <TextBlock x:Name="songunbköy_Kopyala"  HorizontalAlignment="Left" Height="16" Margin="461,180,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="43"/>
+        <TextBlock x:Name="songunbpasa_Kopyala" HorizontalAlignment="Left" Height="16" Margin="461,210,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="43"/>
+        <TextBlock x:Name="songunbebek_Kopyala" HorizontalAlignment="Left" Height="16" Margin="461,240,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="43"/>
+        <TextBlock x:Name="songunbeyoglu_Kopyala" HorizontalAlignment="Left" Height="16" Margin="461,270,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="43"/>
+        <TextBlock x:Name="songunbcekmece_Kopyala" HorizontalAlignment="Left" Height="16" Margin="461,300,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="43"/>
+        <TextBlock x:Name="songuneminonu_Kopyala" HorizontalAlignment="Left" Height="16" Margin="461,330,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="43"/>
+        <TextBlock x:Name="songunfatih_Kopyala" HorizontalAlignment="Left" Height="16" Margin="461,360,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="43"/>
+        <TextBlock x:Name="songungtepe_Kopyala" HorizontalAlignment="Left" Height="16" Margin="461,390,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="43"/>
+        <TextBlock Name="songungop" HorizontalAlignment="Left" Height="16" Margin="819,56,0,0" TextWrapping="Wrap" Text="TextBloc" VerticalAlignment="Top" Width="67"/>
+        <TextBlock Name="songunikitelli" HorizontalAlignment="Left" Height="16" Margin="819,86,0,0" TextWrapping="Wrap" Text="TextBloc" VerticalAlignment="Top" Width="67"/>
+        <TextBlock Name="songunerenkoy" HorizontalAlignment="Left" Height="16" Margin="819,116,0,0" TextWrapping="Wrap" Text="TextBloc" VerticalAlignment="Top" Width="67"/>
+        <TextBlock Name="songunkadiköy" HorizontalAlignment="Left" Height="16" Margin="819,146,0,0" TextWrapping="Wrap" Text="TextBloc" VerticalAlignment="Top" Width="67"/>
+        <TextBlock Name="songunkucukyali" HorizontalAlignment="Left" Height="16" Margin="819,176,0,0" TextWrapping="Wrap" Text="TextBloc" VerticalAlignment="Top" Width="67"/>
+        <TextBlock Name="songunpendik" HorizontalAlignment="Left" Height="16" Margin="819,206,0,0" TextWrapping="Wrap" Text="TextBloc" VerticalAlignment="Top" Width="67"/>
+        <TextBlock Name="songunumraniye" HorizontalAlignment="Left" Height="16" Margin="819,236,0,0" TextWrapping="Wrap" Text="TextBloc" VerticalAlignment="Top" Width="67"/>
+        <TextBlock Name="songunuskudar" HorizontalAlignment="Left" Height="16" Margin="819,266,0,0" TextWrapping="Wrap" Text="TextBloc" VerticalAlignment="Top" Width="67"/>
+        <TextBlock Name="songunkirklareli" HorizontalAlignment="Left" Height="16" Margin="819,296,0,0" TextWrapping="Wrap" Text="TextBloc" VerticalAlignment="Top" Width="67"/>
+        <TextBlock Name="songuntekirdag" HorizontalAlignment="Left" Height="16" Margin="819,326,0,0" TextWrapping="Wrap" Text="TextBloc" VerticalAlignment="Top" Width="67"/>
+        <TextBlock Name="songunsakarya" HorizontalAlignment="Left" Height="16" Margin="819,356,0,0" TextWrapping="Wrap" Text="TextBloc" VerticalAlignment="Top" Width="67"/>
+        <TextBlock Name="songunkocaeli" HorizontalAlignment="Left" Height="16" Margin="819,386,0,0" TextWrapping="Wrap" Text="TextBloc" VerticalAlignment="Top" Width="67"/>
+        <TextBlock Name="gungop" HorizontalAlignment="Left" Height="16" Margin="947,55,0,0" TextWrapping="Wrap" Text="TextBloc" VerticalAlignment="Top" Width="67"/>
+        <TextBlock Name="gunikitelli" HorizontalAlignment="Left" Height="16" Margin="947,85,0,0" TextWrapping="Wrap" Text="TextBloc" VerticalAlignment="Top" Width="67"/>
+        <TextBlock Name="gunerenkoy" HorizontalAlignment="Left" Height="16" Margin="947,115,0,0" TextWrapping="Wrap" Text="TextBloc" VerticalAlignment="Top" Width="67"/>
+        <TextBlock Name="gunkadikoy" HorizontalAlignment="Left" Height="16" Margin="947,145,0,0" TextWrapping="Wrap" Text="TextBloc" VerticalAlignment="Top" Width="67"/>
+        <TextBlock Name="gunkucukyali" HorizontalAlignment="Left" Height="16" Margin="947,175,0,0" TextWrapping="Wrap" Text="TextBloc" VerticalAlignment="Top" Width="67"/>
+        <TextBlock Name="gunpendik" HorizontalAlignment="Left" Height="16" Margin="947,205,0,0" TextWrapping="Wrap" Text="TextBloc" VerticalAlignment="Top" Width="67"/>
+        <TextBlock Name="gunumraniye" HorizontalAlignment="Left" Height="16" Margin="947,235,0,0" TextWrapping="Wrap" Text="TextBloc" VerticalAlignment="Top" Width="67"/>
+        <TextBlock Name="gunuskudar" HorizontalAlignment="Left" Height="16" Margin="947,265,0,0" TextWrapping="Wrap" Text="TextBloc" VerticalAlignment="Top" Width="67"/>
+        <TextBlock Name="gunkirklareli" HorizontalAlignment="Left" Height="16" Margin="947,295,0,0" TextWrapping="Wrap" Text="TextBloc" VerticalAlignment="Top" Width="67"/>
+        <TextBlock Name="guntekirdag" HorizontalAlignment="Left" Height="16" Margin="947,325,0,0" TextWrapping="Wrap" Text="TextBloc" VerticalAlignment="Top" Width="67"/>
+        <TextBlock Name="gunsakarya" HorizontalAlignment="Left" Height="16" Margin="947,355,0,0" TextWrapping="Wrap" Text="TextBloc" VerticalAlignment="Top" Width="67"/>
+        <TextBlock Name="gunkocaeli" HorizontalAlignment="Left" Height="16" Margin="947,385,0,0" TextWrapping="Wrap" Text="TextBloc" VerticalAlignment="Top" Width="67"/>
+        <Button Content="İş Kazası Bildir" HorizontalAlignment="Left" Height="39" Margin="876,418,0,0" VerticalAlignment="Top" Width="265" Click="Button_Click" Background="#FF060CFF" Foreground="White" FontSize="14" FontWeight="Bold"/>
+
+
+
+
+
+    </Grid>
+</Window>
